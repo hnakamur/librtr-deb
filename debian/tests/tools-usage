@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# Very basic autopkg test to validate the two command line utilities rtrclient
+# and rpki-rov print a usage message when run without any arguments.
+
+for prg in rtrclient rpki-rov ; do
+  out=$("$prg" 2>&1)
+  if ! echo "${out}" | grep -q '^Usage:' ; then
+    echo "Error running ${prg}:" >&2
+    echo "Expected output to start with \"Usage:\", got:\n${out}" >&2
+    exit 1
+  fi
+
+done

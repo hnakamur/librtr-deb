@@ -1,9 +1,9 @@
 Document: librtr
-Title: librtr public API Manual
-Author: Fabian Holler <deb@fholler.de>
-Abstract: This manual describes the librtr API.
+Title: librtr library API documentation (Doxygen)
+Abstract: The doxygen generated documentation for programming with the librtr
+ library.
 Section: Programming/C
 
 Format: HTML
-Index: /usr/share/doc/librtr-doc/html/index.html
-Files: /usr/share/doc/librtr-doc/html/*.html
+Index: /usr/share/doc/librtr-dev/html/index.html
+Files: /usr/share/doc/librtr-dev/html/*
