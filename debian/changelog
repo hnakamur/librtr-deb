@@ -1,3 +1,9 @@
+librtr (0.6.3-1ppa1~ubuntu18.04.1) bionic; urgency=medium
+
+  * Bakport to Ubuntu 18.04 LTS
+
+ -- Hiroaki Nakamura <hnakamur@gmail.com>  Wed, 03 Apr 2019 20:54:59 +0900
+
 librtr (0.6.3-1) unstable; urgency=medium
 
   * Import new upstream release
